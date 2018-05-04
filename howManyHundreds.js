@@ -1,6 +1,7 @@
 function howManyHundreds (num) {
-    return Math.floor(num / 100);
+    console.log(Math.floor(num / 100));
 }
 
-console.log(howManyHundreds(1000) + " =? " + 10);
-console.log(howManyHundreds(932));
+howManyHundreds(932);
+
+console.log(100%200);
