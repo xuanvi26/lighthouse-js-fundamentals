@@ -1,9 +1,9 @@
 const range = (start, end, step) => {
     let values = [];
-    if (start === undefined|| end === undefined || step === undefined) return values;
+    if (start === undefined || end === undefined || step === undefined) return values;
     if (start > end) return values;
     if (step <= 0) return values;
-    for (i = start; i <= end; i += step) {
+    for (let i = start; i <= end; i += step) {
         values.push(i);
     }
     return (values);
