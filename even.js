@@ -12,7 +12,7 @@ console.log(10 % 2 === 0);
 console.log(isEven(10));
 // Avoid using var, it is outdated now
 // Look up let and const
-var elevenIsEven = isEven(11);
+const elevenIsEven = isEven(11);
 
 console.log(elevenIsEven);
 console.log (isEven(11));
