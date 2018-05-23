@@ -1,4 +1,4 @@
-var iceCreamFlavours = ["chocolate", "vanilla", "cookies and cream", "strawberry"];
+let iceCreamFlavours = ["chocolate", "vanilla", "cookies and cream", "strawberry"];
 console.log(iceCreamFlavours);
 
 iceCreamFlavours.push("root beer");
