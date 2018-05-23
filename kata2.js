@@ -32,3 +32,7 @@ var condSum = function(values, condition) {
   console.log(condSum([1, 2, 3, 4, 5], "odd"));
   console.log(condSum([13, 88, 12, 44, 99], "even"));
   console.log(condSum([], "odd"));
+
+(val => {
+    console.log(val)
+}) ('TEST')
